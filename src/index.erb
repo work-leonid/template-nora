@@ -1,0 +1,355 @@
+---
+layout: default
+---
+
+<div class="bg-gradient-to-b h-20 from-emerald-50">
+<nav class="flex max-w-6xl hidden justify-between pt-5 pb-10 mx-auto text-xl px-5">
+  <div class="flex gap-10 hidden items-center">
+    <a href="#" class="text-emerald-500 hover:text-emerald-600">Features</a>
+    <a href="#" class="text-emerald-500 hover:text-emerald-600">Pricing</a>
+    <a href="#" class="text-emerald-500 hover:text-emerald-600">Testimonials</a>
+  </div>
+
+  <a href="#" class="hidden bg-emerald-100 hidden md:block hover:bg-emerald-200/50 text-emerald-500 font-medium px-5 py-4 rounded-md">Buy now</a>
+</nav>
+</div>
+
+
+<section class="">
+
+  <div class=" md:min-h-[90vh]">
+    <div class="max-w-5xl px-5 pt-10 md:pt-20 mb-10 mx-auto text-center">
+
+    <img src="https://www.getnora.page/favicon.svg" class="w-44 mx-auto mb-10 md:mb-20 self-center">
+    
+    <h1 class=" font-header mb-2 md:mb-5 text-3xl md:text-5xl lg:text-6xl font-bold">
+      Never rebuild your project management in Notion again
+    </h1>
+
+    <p class="mb-10 text-2xl max-w-xl mx-auto">
+      The most sophisticated project management system for Notion ever made
+    </p>
+
+     <div class="flex flex-col text-xl justify-center sm:flex-row gap-2 md:gap-5 items-center">
+       <a href="" class="inline-block w-full sm:w-auto text-center px-10 hover:bg-emerald-600 py-4 bg-emerald-500 text-white rounded-md font-bold">Buy now</a>
+     </div>
+    </div>
+
+    <div class="bg-gradient-to-t from-yellow-100 via-rose-50">
+      <img src="<%= relative_url "/images/hero/hero.png" %>" srcset="<%= relative_url "/images/hero/hero@2x.png" %> 2x" class="mx-auto" />
+    </div>
+  </div>
+</section>
+
+<section class="my-20 px-5">
+  <div class="max-w-7xl p-5 border-2 border-rose-200  md:p-16 md:mx-auto rounded-xl text-xl"> 
+    <p class="text-6xl my-5 md:mb-10 text-center animate-bounce">🤬</p>
+    <h2 class="md:text-center text-3xl text-left md:text-4xl font-bold mb-10 max-w-3xl mx-auto">If one of these problems <span class="text-rose-500">resonates</span> with you, Nora is for you</h2>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 ">
+      <% [
+        {title: "Rebuilt Nth time", 
+         subtitle: "You rebuilt your project management many times and are still not happy"}, 
+
+        {title: "Tasks are too big", 
+         subtitle: "Someday you can't move any tasks to Done, because the task was too big"}, 
+
+        {title: "Don't know what to do?", 
+         subtitle: "Sometimes I just look at my backlog and don't know what to do"}, 
+
+        {title: "Many outdated tasks", 
+         subtitle: "My backlog has too many outdated tasks that I even avoid looking at"}, 
+
+        {title: "No sprint tracking", 
+         subtitle: "My system doesn't have good sprint tracking, can't track projects' sprints"}, 
+        {title: "No estimate system", 
+         subtitle: "My system doesn't have good estimate, can't know how long a task may take"}, 
+      ].each do |item, key| %>
+      <div class="">
+        <h3 class="font-bold text-rose-600 mb-2"><%= item[:title] %></h3>
+        <p class=""><%= item[:subtitle] %></p>
+      </div>
+    <% end %>
+    </div>
+  </div>
+</section>
+
+<section>
+
+  <div class="max-w-7xl px-5 mx-auto md:py-20 text-xl"> 
+
+    <!-- title -->
+    <h2 class="leading-tight font-header text-center text-4xl md:text-6xl font-bold mb-10 max-w-4xl mx-auto">Solve your most painful problems with one powerful template</h2>
+
+    <!-- column start -->
+    <div class="grid lg:grid-cols-3 md:gap-10 py-10 md:py-32">
+
+      <!-- content -->
+      <div class="md:self-center mb-5">
+        <h2 class="font-bold font-header mb-3 text-4xl">Infinite sub-issues</h2>
+        <p class="text-2xl mb-5 md:mb-10">Break any tasks into sub-tasks in 1-click to ship faster, don’t ever get stuck again</p>
+
+        <ul class="text-2xl space-y-5">
+          <li class="flex gap-3 items-center">
+            <div class="p-4 bg-gradient-to-br from-orange-100 to-emerald-100 rounded-xl">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" /> </svg>
+            </div>
+            <p>1-click create</p>
+          </li>
+          <li class="flex gap-3 items-center">
+            <div class="p-4 bg-gradient-to-br from-orange-100 to-emerald-100 rounded-xl">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /> </svg> 
+            </div>
+            <p>Sub-issues at infinite level</p>
+          </li>
+        </ul>
+      </div>
+
+      <!-- image -->
+      <div class="rounded-xl md:col-span-2 bg-emerald-500 p-2 md:pt-16 md:pl-16 md:pr-1 md:pb-1">
+        <img src="https://www.getnora.page/assets/heros/infinite-sub-issues.png" class="rounded-md" />
+      </div>
+    </div>
+    <!-- column end -->
+    
+
+    <!-- column start -->
+    <div class="grid lg:grid-cols-3 md:gap-10 py-10 md:py-32">
+
+      <!-- content -->
+      <div class="md:self-center mb-5">
+        <h2 class="font-bold font-header mb-3 text-4xl">Sprint tracking & estimate </h2>
+        <p class="text-2xl mb-5 md:mb-10">Track timeline of sprints & tasks without thinking about how long each task takes</p>
+
+        <ul class="text-2xl space-y-5">
+          <li class="flex gap-3 items-center">
+            <div class="p-4 bg-gradient-to-br from-orange-100 to-emerald-100 rounded-xl">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /> </svg>
+            </div>
+            <p>Sprint estimated hours & progress</p>
+          </li>
+          <li class="flex gap-3 items-center">
+            <div class="p-4 bg-gradient-to-br from-orange-100 to-emerald-100 rounded-xl">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" /> </svg>
+            </div>
+            <p>Take sub-issues into account</p> 
+          </li>
+        </ul>
+      </div>
+
+      <!-- image -->
+      <div class="rounded-xl md:col-span-2 bg-yellow-500 p-2 md:pt-16 md:pl-16 md:pr-1 md:pb-1">
+        <img src="https://www.getnora.page/assets/heros/sprint-tracking.png" class="rounded-md" />
+      </div>
+    </div>
+    <!-- column end -->
+
+
+    <!-- column start -->
+    <div class="grid lg:grid-cols-3 md:gap-10 py-10 md:py-32">
+
+      <!-- content -->
+      <div class="md:self-center mb-5">
+        <h2 class="font-bold mb-3 font-header text-4xl">What-to-do suggestions </h2>
+        <p class="text-2xl mb-5 md:mb-10">Suggest what to do based on your energy level, what you feel like working</p>
+        <ul class="text-2xl space-y-5">
+          <li class="flex gap-3 items-center">
+            <div class="p-4 bg-gradient-to-br from-orange-100 to-emerald-100 rounded-xl">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z" /> </svg>
+            </div>
+            <p>Intensive tasks for focus time</p>
+          </li>
+          <li class="flex gap-3 items-center">
+            <div class="p-4 bg-gradient-to-br from-orange-100 to-emerald-100 rounded-xl">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z" /> </svg>
+            </div>
+            <p>Chore tasks for down time</p> 
+          </li>
+        </ul>
+      </div>
+
+      <!-- image -->
+      <div class="rounded-xl md:col-span-2 bg-rose-500 p-2 md:pt-16 md:pl-16 md:pr-1 md:pb-1">
+        <img src="https://www.getnora.page/assets/heros/what-to-do.png" class="rounded-md " />
+      </div>
+    </div>
+    <!-- column end -->
+
+
+    <!-- column start -->
+    <div class="grid lg:grid-cols-3 md:gap-10 py-10 md:py-32">
+
+      <!-- content -->
+      <div class="md:self-center mb-5">
+        <h2 class="font-bold mb-3 font-header text-4xl">Estimate & Progress </h2>
+        <p class="text-2xl mb-5 md:mb-10">See estimate & progress at all level: projects, sprints, tasks & sub-tasks. Never lose sight of your project again </p>
+        <ul class="text-2xl space-y-5">
+          <li class="flex gap-3 items-center">
+            <div class="p-4 bg-gradient-to-br from-orange-100 to-emerald-100 rounded-xl">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /> </svg>
+            </div>
+            <p>Auto-estimated hours for everything </p>
+          </li>
+          <li class="flex gap-3 items-center">
+            <div class="p-4 bg-gradient-to-br from-orange-100 to-emerald-100 rounded-xl">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /> </svg>
+            </div>
+            <p>Auto-updated progress for everything </p> 
+          </li>
+        </ul>
+      </div>
+
+      <!-- image -->
+      <div class="rounded-xl md:col-span-2 bg-purple-500 p-2 md:pt-16 md:pl-16 md:pr-1 md:pb-1">
+        <img src="https://www.getnora.page/assets/heros/work-in-progress.png" class="rounded-md " />
+      </div>
+    </div>
+    <!-- column end -->
+
+
+    <!-- column start -->
+    <div class="grid lg:grid-cols-3 md:gap-10 py-10 md:py-32">
+
+      <!-- content -->
+      <div class="md:self-center mb-5">
+        <h2 class="font-bold mb-3 font-header text-4xl">Auto cleanup </h2>
+        <p class="text-2xl mb-5 md:mb-10">Smart auto-outdated tasks, never avoid looking at your backlog again </p>
+        <ul class="text-2xl space-y-5">
+          <li class="flex gap-3 items-center">
+            <div class="p-4 bg-gradient-to-br from-orange-100 to-emerald-100 rounded-xl">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /> </svg>
+            </div>
+            <p>Auto-outdated tasks </p>
+          </li>
+          <li class="flex gap-3 items-center">
+            <div class="p-4 bg-gradient-to-br from-orange-100 to-emerald-100 rounded-xl">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" /> </svg>
+            </div>
+            <p>Effortless way to review & cleanup tasks </p> 
+          </li>
+        </ul>
+      </div>
+
+      <!-- image -->
+      <div class="rounded-xl md:col-span-2 bg-sky-500 p-2 md:pt-16 md:pl-16 md:pr-1 md:pb-1">
+        <img src="https://www.getnora.page/assets/heros/auto-cleanup.png" class="rounded-md" />
+      </div>
+    </div>
+    <!-- column end -->
+
+  </div>
+</section>
+
+<section class="text-white text-center md:mx-auto px-5 my-20 max-w-7xl">
+  <div class="bg-gradient-to-br from-emerald-700 to-emerald-500 rounded-2xl p-5 md:p-10 ">
+    <h2 class="text-3xl md:text-5xl font-header font-bold mb-5 max-w-xl mx-auto">Never rebuild your project management again today!</h2>
+    <p class="text-xl md:text-2xl max-w-3xl mx-auto mb-5 md:mb-10">Save hundreds of hours caused by losing track of your projects and rebuilding the system to manage them from scratch.</p>
+
+    <a href="#" class="inline-block w-full sm:w-auto text-2xl bg-white hover:bg-emerald-50 text-emerald-500 font-medium px-5 py-4 rounded-md">Buy now</a>
+  </div>
+</section>
+
+
+<section class="max-w-5xl md:px-5  mx-auto ">
+  <div class="text-center">
+    <h2 class="text-3xl mb-3 font-header font-bold">We ❤️  our customers</h2>
+    <p class="text-5xl font-header font-bold">And they seem to love us</p>
+  </div>
+
+  <blockquote class="relative md:text-center p-8 md:p-16 mx-auto mb-20">
+	<span class="absolute block text-stone-100 leading-none text-[15em] italic -top-5 -left-20 md:left-10">&quot;</span>
+
+    <p class="max-w-3xl mb-10 leading-relaxed text-xl md:text-4xl relative mx-auto">
+    I've always struggled with project organization, I had problems managing sub-tasks and estimating due dates, but <span class="bg-yellow-100">Nora seemed to have solved my problem!</span>
+    </p>
+
+	<cite>
+      <a href="#" target="_blank" class="flex font-bold font-header normal items-center justify-center gap-5 hover:opacity-90">
+        <img src="https://www.getnora.page/avatar-yudax.png" class="w-20 h-20 rounded-full" />
+        <p>Yudax, Notion Certified Ambassador</p>
+      </a>
+    </cite>
+
+  </blockquote>
+</section>
+
+
+<section class="max-w-7xl mx-auto px-5 text-xl mb-20">
+  <div class="text-center mb-10">
+    <h2 class="text-3xl mb-3 font-header font-bold">Pay once, own it forever</h2>
+    <p class="text-5xl mb-5 font-header font-bold">In all plans you'll get</p>
+
+    <div class="flex flex-wrap gap-2 md:gap-5 justify-center">
+      <% ["Unlimited workspaces", "Notion template", "All features", "Tutorials and docs"].each do |item| %>
+      <div class="bg-emerald-100 px-4 py-3 inline-block rounded-xl">
+        <%= item %>
+      </div>
+      <% end %>
+    </div>
+
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-10">
+    
+    <!-- column start -->
+    <div class="p-5 md:p-10 border border-emerald-300 relative rounded-xl">
+
+      <div class="flex justify-between flex-col gap-5 ">
+
+        <!-- title -->
+        <div class="text-center md:mb-10">
+          <span class="bg-yellow-200 inline-block -rotate-2 mb-4  px-9 py-1 text-xl font-bold rounded-md">Early-bird</span>
+          <h3 class="font-bold font-header text-4xl">Friends</h3>
+          <p class="text-2xl">For 2 Notion accounts</p>
+        </div>
+
+        <!-- pricing -->
+        <div class="text-3xl font-bold flex flex-col lg:flex-row md:justify-between gap-5 lg:gap-16">
+
+          <div class="flex gap-2 text-5xl items-center justify-center">
+            <p class="line-through text-slate-300">$99</p>
+            <p class="">$49</p>
+          </div>
+
+          <a href="#" class="rounded-md w-full text-center inline-block bg-emerald-500 px-5 py-4 text-2xl text-white">
+            Buy now
+          </a>
+
+        </div>
+      </div>
+    </div>
+     <!-- column end -->
+
+    <!-- column start -->
+    <div class="p-5 md:p-10 bg-yellow-100 relative rounded-xl">
+
+      <div class="flex justify-between flex-col gap-5">
+
+        <!-- title -->
+        <div class="text-center md:mb-10">
+          <span class="bg-yellow-300 inline-block -rotate-2 mb-4  px-9 py-1 text-xl font-bold rounded-md">Early-bird</span>
+          <h3 class="font-bold font-header text-4xl">Personal</h3>
+          <p class="text-2xl">For 1 Notion accounts</p>
+        </div>
+
+        <!-- pricing -->
+        <div class="text-3xl font-bold flex flex-col lg:flex-row md:justify-between gap-5 lg:gap-16">
+
+          <div class="flex gap-2 text-5xl items-center justify-center">
+            <p class="line-through opacity-30">$59</p>
+            <p class="">$29</p>
+          </div>
+
+          <a href="#" class="rounded-md w-full text-center inline-block bg-emerald-500 px-5 py-4 text-2xl text-white">
+            Buy now
+          </a>
+
+        </div>
+      </div>
+    </div>
+     <!-- column end -->
+
+  </div>
+</section>
+
+
